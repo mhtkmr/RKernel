@@ -16,7 +16,7 @@ const UserSchema = new Schema({
         required: true
     },
     Subscription: [{
-        type: Schema.type.ObjectId,
+        type: Schema.Type.ObjectId,
         ref: 'category'
     }]
 });
